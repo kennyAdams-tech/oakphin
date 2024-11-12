@@ -1,0 +1,32 @@
+.section-3 {
+ position: relative;
+
+}
+.section-3 .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3 img {
+    
+    height: 300px;
+    filter: brightness(80%);
+}
+
+/* .section-3 .content {
+    color: white;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.section-3 .content p {
+    width: 50%;
+}
+ */

@@ -1,0 +1,27 @@
+.slider .content{
+    width: 100%;
+}
+
+.content p {
+    width: 90%;
+}
+
+.slider .content img {
+    width: 90%;
+   
+}
+
+.offer {
+    border-bottom: 2px solid green;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width: 568px) {
+    
+}

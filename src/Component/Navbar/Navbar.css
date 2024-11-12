@@ -1,0 +1,115 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav .menu-item {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav .menu-item li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu-item li a.active {
+    border-bottom: 2px solid green;
+    font-size: 20px;
+}
+
+.toggle{
+    display: none;
+}
+
+
+
+.toggle div {
+    background-color: green;
+    width: 25px;
+    margin-bottom: 5px;
+    height: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+.toggle .line2{
+    background-color: black;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .logo img {
+        width: 100px;
+    }
+
+    .nav .menu-item {
+        position: absolute;
+        flex-direction: column;
+        background-color: green;
+        left: 0;
+        top: 45px;
+        width: 75%;
+        padding: 20px;
+        height: 100vh;
+        transform: translate(-110%);
+        transition: all 0.5s ease-in-out;
+        z-index: 9999;
+    }
+
+    .nav .menu-item.active {
+        position: absolute;
+        flex-direction: column;
+        background-color: green;
+        left: 0;
+        top: 45px;
+        width: 75%;
+        padding: 20px;
+        height: 100vh;
+        transform: translate(0);
+        z-index: 9999;
+    }
+
+    .nav .menu-item li a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .menu-item li a.active {
+        border-bottom: none;
+        font-size: 20px;
+    }
+
+    .toggle{
+        display: block;
+       
+    }
+
+    .toggle.cancel .line1  {
+        transform: rotate(-45deg) translate(-6px);
+        width: 25px;
+    }
+    .toggle.cancel .line2  {
+        display: none;
+    }
+    .toggle.cancel .line3  {
+        transform: rotate(45deg) translate(-5px);
+        width: 25px;
+    }
+}
+
+@media (max-width: 568px) {
+    
+}
+

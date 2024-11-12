@@ -1,0 +1,16 @@
+
+
+.card .header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.card .header img {
+    border-radius: 50%;
+    width: 70px;
+    border: 2px solid green;
+    height: 70px;
+    margin-top: -15px;
+    object-fit: fill;
+}
