@@ -1,5 +1,5 @@
 import React from 'react'
-import Section1 from '../About-pages/section1'
+import Section1 from './About-pages/section1'
 import Footer from './../Component/Footer.jsx'
 const About = () => {
   return (
