@@ -4,7 +4,7 @@ import img1 from '../../assets/img3.jpg'
 import img2 from '../../assets/store.jpg'
 import img3 from '../../assets/drug.jpg'
 import pham from '../../assets/pham.jpg'
-import office from '../../assets/office.jpg'
+import office from '../../assets/Office.jpg'
 import { useNavigate } from 'react-router-dom'
 
 const Section4 = () => {
