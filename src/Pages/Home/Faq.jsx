@@ -7,7 +7,7 @@ const Faq = () => {
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button bg-success opacity-75 text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        When do you do your deleveries?
+        When do you do your deliveries?
       </button>
     </h2>
     <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">

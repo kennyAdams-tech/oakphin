@@ -10,7 +10,7 @@ const Section1 = () => {
     <div className='container  mt-5 mb-5 section-1'>
         <div>
             <div className="icon fs-1 text-success"><MdOutlineEmojiTransportation/></div>
-            <p>Transportation</p>
+            <p>Logistics</p>
             <p className='lead'>We deliver goods quickly and effectively thanks to our sophisticated logistics system, getting products to consumers precisely within 15 minutes of their request.</p>
         </div>
         <div>

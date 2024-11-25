@@ -44,7 +44,7 @@ const Footer = () => {
           To become Africa’s leading creative and innovative digital infrastructure for sustainable economic, social, capital, and human development. 
           </p>
           <p>
-            <b>Mision</b> <br />
+            <b>Mission</b> <br />
              To improve and increase timely access to quality health, lifestyle, and wealth through digital innovations and interventions.</p>
 
         </div>
