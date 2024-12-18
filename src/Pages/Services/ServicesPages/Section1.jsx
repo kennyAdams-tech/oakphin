@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import img from '../../../assets/bg1.jpg'
 import Service from '../../Home/Section1.jsx'
+import logo from '../../../assets/logo.jpeg'
 import Service2 from '../../Home/Section2.jsx'
 import Footer from '../../../Component/Footer.jsx'
 const Section1 = () => {
@@ -9,7 +10,7 @@ const Section1 = () => {
   return (
     <div>
         <div className="card text-bg-dark container-fluid">
-            <img src={img} className="card-img" alt="..."/>
+            <img src={logo} className="card-img" alt="..."/>
             <div className="card-img-overlay">
                 <h5 className="card-title text-center mt-4 ">Services </h5>
                 <p className="card-text text-center "><span onClick={() => navigate('/')}>Home</span> <span className='text-success mx-3 fw-bold'>/ Services</span></p>
