@@ -1,6 +1,7 @@
 import React from 'react'
 import './Section3.css'
 import img from '../../assets/bg2.jpg'
+import logo from '../../assets/logo.jpeg'
 import { useNavigate } from 'react-router-dom'
 
 const Section3 = () => {
@@ -8,10 +9,10 @@ const Section3 = () => {
   return (
     <div className='section-3'>
         <div className="card text-center text-light">
-        <img src={img} className="card-img" alt="..."/>
+        <img src={logo} className="card-img" alt="..."/>
         <div className="card-img-overlay">
           <h5 className="card-title">100% Secure and Safe</h5>
-          <p className="card-text lead">We deliver goods quickly and effectively thanks to our sophisticated logistics system, getting products to consumers precisely within 15 minutes of their request..</p>
+          <p className="card-text ">We deliver goods quickly and effectively thanks to our sophisticated logistics system, getting products to consumers precisely within 15 minutes of their request..</p>
           <button className='btn btn-success px-5' >Contact</button>
         </div>
       </div>
