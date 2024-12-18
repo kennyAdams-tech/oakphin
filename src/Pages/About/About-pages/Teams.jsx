@@ -60,7 +60,11 @@ const Teams = () => {
             </div>
             <div className="col-md-4 col-sm-4 col-xs-6">
             <div className="card cards">
+<<<<<<< HEAD
                 <img src={adams} height='200' className="card-img-top" alt="..."/>
+=======
+                <img src={kenny} height='200' className="card-img-top" alt="..."/>
+>>>>>>> dace56610d558eed22132fc7fbbd0e5c4f22b601
                 <div className="card-body">
                 <h5 className="card-title lead">Chief Innovation Technology Officer (CITO)</h5>
                 <h5 className="card-title">Adams Kehinde</h5>
