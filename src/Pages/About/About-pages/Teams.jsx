@@ -60,10 +60,7 @@ const Teams = () => {
             </div>
             <div className="col-md-4 col-sm-4 col-xs-6">
             <div className="card cards">
-
                 <img src={adams} height='200' className="card-img-top" alt="..."/>
-                <img src={kenny} height='200' className="card-img-top" alt="..."/>
-
                 <div className="card-body">
                 <h5 className="card-title lead">Chief Innovation Technology Officer (CITO)</h5>
                 <h5 className="card-title">Adams Kehinde</h5>
